@@ -38,7 +38,7 @@ const navBar = () => {
                 <li><a href='#skills' className='nav-links'>Skills</a></li>
                 <li><a href='#portfolio' className='nav-links'>Portfolio</a></li>
             </ul>
-            <a href='https://drive.google.com/uc?export=download&id=1utaJCTthOqIT3ws41hgZimS2YjNGHJNq' className='cv'>Download CV</a>
+            <a href='https://drive.google.com/uc?export=download&id=1utaJCTthOqIT3ws41hgZimS2YjNGHJNq' className='cv'>DOWNLOAD CV</a>
         </div>
         <div className='socials'>
             <a href='https://www.linkedin.com/in/thiago-neves-43ab52a4/'><img src={linkedinlogo} alt='linkedin'/></a>
