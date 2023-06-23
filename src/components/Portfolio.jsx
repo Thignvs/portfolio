@@ -52,7 +52,7 @@ const Portfolio = () => {
         </div>
 
         <div className='skilled'>
-            <p className='page-ttl'>Skilled Landingpage</p>
+            <p className='page-ttl'>Skilled Landing Page</p>
             <a href='https://thignvs.github.io/skilled-e-learning-landingpage-REACT/'><img src={skilled} alt="skilledScreenshot" /></a>
             <div className='languages'>
                 <div className='langDescrip'>
@@ -80,7 +80,7 @@ const Portfolio = () => {
         </div>
 
         <div className='sunny'>
-            <p className='page-ttl'>Sunnyside Agency Landingpage</p>
+            <p className='page-ttl'>Sunnyside Agency Landing Page</p>
             <a href='https://thignvs.github.io/Sunnyside-agency-landingpage/'><img src={sunny} alt="sunnysidecreenshot"/></a>
             <div className='languages'>
                 <div className='langDescrip'>
@@ -108,7 +108,7 @@ const Portfolio = () => {
         </div>
 
         <div className='maker'>
-            <p className='page-ttl'>Maker Pre-Launch Landingpage</p>
+            <p className='page-ttl'>Maker Pre-Launch Landing Page</p>
             <a href='https://thignvs.github.io/Make-prelaunch-landingpage-REACT/'><img src={maker} alt="makerScreenshot" /></a>
             <div className='languages'>
                 <div className='langDescrip'>
