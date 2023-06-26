@@ -14,6 +14,8 @@ import singlepage from '../assets/singlepagescreenshot.png'
 import blogr from '../assets/blogrscreenshot.png'
 import testimonial from '../assets/testimonialscreenshot.png'
 import sunny from '../assets/sunnysidescreenshot.png'
+import tailwind from '../assets/Tailwind_CSS_Logo.svg.png'
+import meet from '../assets/meetscreenshot.png'
 
 
 const Portfolio = () => {
@@ -48,6 +50,34 @@ const Portfolio = () => {
             <div className='links'>
                 <a className='portfolio-link' href='https://thignvs.github.io/BMI-Calculator/'>Link Página</a>
                 <a className='portfolio-link' href='https://github.com/Thignvs/BMI-Calculator'>Link Código</a>
+            </div>
+        </div>
+
+        <div className='meet'>
+            <p className='page-ttl'>Meet Landing Page</p>
+            <a href='https://thignvs.github.io/meet-landingpage/'><img src={meet} alt="meetScreenshot" /></a>
+            <div className='languages'>
+                <div className='langDescrip'>
+                    <p>Linguagem</p>
+                    <div className='langBadges'>
+                        <img id='reactbadge' src={react} alt="reactbadge" />
+                        <img src={tailwind} alt="tailwindbadge" />
+                    </div>
+                </div>
+                <div className='sizes'>
+                    <div className='sizeDescrip'>
+                        <p>Tamanhos</p>
+                    </div>
+                    <div className='sizeBadges'>
+                        <img src={desktop} alt='desktopimg'/>
+                        <img src={tablet} alt='tabletimg'/>
+                        <img src={cellphone} alt='cellphoneimg'/>
+                    </div>
+                </div>
+            </div>
+            <div className='links'>
+                <a className='portfolio-link' href='https://thignvs.github.io/meet-landingpage/'>Link Página</a>
+                <a className='portfolio-link' href='https://github.com/Thignvs/meet-landingpage'>Link Código</a>
             </div>
         </div>
 

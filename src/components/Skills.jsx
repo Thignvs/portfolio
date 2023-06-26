@@ -7,6 +7,7 @@ import bootstrap from '../assets/Bootstrap_logo.svg.png'
 import firebase from '../assets/512px-Firebase_Logo.svg.png'
 import mongo from '../assets/MongoDB_Logo.svg.png'
 import node from '../assets/512px-Node.js_logo.svg.png'
+import tailwinds from '../assets/Tailwind_CSS_Logo.svg.png'
 
 const Skills = () => {
     return (
@@ -31,9 +32,14 @@ const Skills = () => {
             <img src={react} alt='reactbadge'/>
         </div>
         <div className='bootstrap'>
+            <p>Tailwind CSS</p>
+            <img src={tailwinds} alt='tailwindsbadge'/>
+        </div>
+        <div className='bootstrap'>
             <p>Bootstrap</p>
             <img src={bootstrap} alt='bootstrapbadge'/>
         </div>
+        
         <div className='node'>
             <p>NodeJS</p>
             <img src={node} alt="nodejsbadge" />
