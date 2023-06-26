@@ -227,6 +227,10 @@ main{
 #reactbadge{
   height: 80px;
 }
+#tailwindbadge{
+  height: 80px;
+  margin-left: 20px;
+}
 .sizeBadges{
   display: flex;
   flex-direction: row;

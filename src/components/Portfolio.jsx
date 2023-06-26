@@ -61,7 +61,7 @@ const Portfolio = () => {
                     <p>Linguagem</p>
                     <div className='langBadges'>
                         <img id='reactbadge' src={react} alt="reactbadge" />
-                        <img src={tailwind} alt="tailwindbadge" />
+                        <img id='tailwindbadge' src={tailwind} alt="tailwindbadge" />
                     </div>
                 </div>
                 <div className='sizes'>
