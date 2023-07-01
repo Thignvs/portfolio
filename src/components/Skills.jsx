@@ -33,11 +33,11 @@ const Skills = () => {
             <p>React Js</p>
             <img src={react} alt='reactbadge'/>
         </div>
-        <div className='react'>
+        <div className='vite'>
             <p>Vite Js</p>
             <img src={vite} alt='vitebadge'/>
         </div>
-        <div className='react'>
+        <div className='aws'>
             <p>Amazon Web Services</p>
             <img src={AWS} alt='awsbadge'/>
         </div>
