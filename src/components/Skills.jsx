@@ -8,6 +8,8 @@ import firebase from '../assets/512px-Firebase_Logo.svg.png'
 import mongo from '../assets/MongoDB_Logo.svg.png'
 import node from '../assets/512px-Node.js_logo.svg.png'
 import tailwinds from '../assets/Tailwind_CSS_Logo.svg.png'
+import AWS from '../assets/512px-Amazon_Web_Services_Logo.svg.png'
+import vite from '../assets/Vitejs-logo.svg.png'
 
 const Skills = () => {
     return (
@@ -30,6 +32,14 @@ const Skills = () => {
         <div className='react'>
             <p>React Js</p>
             <img src={react} alt='reactbadge'/>
+        </div>
+        <div className='react'>
+            <p>Vite Js</p>
+            <img src={vite} alt='vitebadge'/>
+        </div>
+        <div className='react'>
+            <p>Amazon Web Services</p>
+            <img src={AWS} alt='awsbadge'/>
         </div>
         <div className='bootstrap'>
             <p>Tailwind CSS</p>
