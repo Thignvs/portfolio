@@ -14,7 +14,7 @@ body::-webkit-scrollbar-track {
   background: #ffffff00;
 }
 body::-webkit-scrollbar {
-  width: 3px; /* Largura da barra de rolagem */
+  width: 3px;
 }
 body {
   margin: 0 auto;
