@@ -1,52 +1,63 @@
-:root{
+:root {
   --Primary: #231d1e;
   --Secondary: #141414;
-  --Links: #EEEEEE;
+  --Links: #eeeeee;
   --Links-hover: #ff8207;
-  font-family: 'Ubuntu', sans-serif;
+  font-family: "Ubuntu", sans-serif;
+  scrollbar-color: #ff8207 #88888800 ;
+  scrollbar-width: thin;
 }
-body{
+body::-webkit-scrollbar-thumb {
+  background: #ff8207;
+}
+body::-webkit-scrollbar-track {
+  background: #ffffff00;
+}
+body::-webkit-scrollbar {
+  width: 3px; /* Largura da barra de rolagem */
+}
+body {
   margin: 0 auto;
   padding: 0;
   box-sizing: border-box;
 }
-a{
+a {
   text-decoration: none;
 }
-header{
+header {
   background-color: var(--Primary);
 }
-#nav-bar{
+#nav-bar {
   position: relative;
   display: flex;
   justify-content: space-between;
   padding: 50px 5%;
   align-items: center;
 }
-.logo{
+.logo {
   width: 50px;
 }
 
 /* ----------------------------------------------- NAV BAR -------------------------------------- */
-.hamburger{
+.hamburger {
   cursor: pointer;
 }
-.bars{
+.bars {
   display: block;
   border-radius: 5px;
   margin: 5px 0;
   width: 40px;
   height: 5px;
   background-color: var(--Links);
-  transition: all .3s;
+  transition: all 0.3s;
 }
-.bars:nth-child(2){
+.bars:nth-child(2) {
   background-color: var(--Links-hover);
 }
-.nav{
+.nav {
   display: none;
 }
-.active{
+.active {
   position: absolute;
   top: 100px;
   width: 80%;
@@ -59,17 +70,17 @@ header{
   padding: 20px;
   border-radius: 5px;
 }
-.close .bars:nth-child(1){
+.close .bars:nth-child(1) {
   transform: translateY(10px) translateX(0px) rotate(135deg);
 }
-.close .bars:nth-child(2){
+.close .bars:nth-child(2) {
   opacity: 0;
 }
-.close .bars:nth-child(3){
+.close .bars:nth-child(3) {
   transform: translateY(-10px) translateX(0px) rotate(-135deg);
   background-color: var(--Links-hover);
 }
-.nav-list{
+.nav-list {
   padding: 0;
   gap: 10px;
   list-style-type: none;
@@ -79,7 +90,7 @@ header{
   align-items: center;
 }
 
-.nav-links{
+.nav-links {
   text-transform: uppercase;
   margin: 5px;
   cursor: pointer;
@@ -88,14 +99,14 @@ header{
   align-items: center;
   padding: 5px;
   color: var(--Primary);
-  transition: all .3s;
+  transition: all 0.3s;
   border-bottom: solid 2px transparent;
   font-weight: 600;
 }
-.nav-links:hover{
+.nav-links:hover {
   border-bottom: solid 2px var(--Links-hover);
 }
-.cv{
+.cv {
   cursor: pointer;
   padding: 10px 20px;
   border-radius: 50px;
@@ -103,56 +114,57 @@ header{
   background: transparent;
   color: var(--Primary);
   font-weight: 700;
-  transition: ease .5s;
-  font-family: 'Ubuntu', sans-serif;
+  transition: ease 0.5s;
+  font-family: "Ubuntu", sans-serif;
 }
-.cv:hover{
+.cv:hover {
   color: var(--Primary);
   border: 1px solid var(--Primary);
   /* background: linear-gradient(45deg, var(--Secondary), var(--Links-hover)); */
   background-color: var(--Links-hover);
 }
-.socials{
+.socials {
   justify-content: center;
   display: flex;
   gap: 10px;
   color: var(--Links);
 }
-.socials img{
+.socials img {
   width: 30px;
   color: var(--Links);
   margin-top: 5px;
   cursor: pointer;
   filter: invert(1);
 }
-.socials img:hover{
-  filter: brightness(0) saturate(100%) invert(48%) sepia(91%) saturate(814%) hue-rotate(353deg) brightness(101%) contrast(106%);
+.socials img:hover {
+  filter: brightness(0) saturate(100%) invert(48%) sepia(91%) saturate(814%)
+    hue-rotate(353deg) brightness(101%) contrast(106%);
 }
 /* ------------------------------------------------------------------------------------------------- */
 /* -------------------------------- Hero -------------------------------------- */
-.hero{
+.hero {
   color: var(--Links);
   padding: 50px 5%;
   font-size: 1.3rem;
 }
-.hero span{
+.hero span {
   color: var(--Links-hover);
 }
 /* ------------------------------------------------------------------------------------------------- */
 /* -------------------------------- Main -------------------------------------- */
-main{
+main {
   margin: 0;
   background-color: var(--Secondary);
 }
-#about{
+#about {
   padding: 10px 5%;
   color: var(--Links);
   font-size: 18px;
 }
-.about-ttl{
+.about-ttl {
   font-size: 30px;
 }
-#skills{
+#skills {
   color: var(--Links);
   text-align: center;
   display: grid;
@@ -163,208 +175,204 @@ main{
   background-color: var(--Links-hover);
   padding-bottom: 100px;
 }
-#skills h3{
+#skills h3 {
   margin-bottom: 0;
 }
-.skills-ttl{
+.skills-ttl {
   margin-top: 0;
   font-size: 30px;
   grid-row: 1;
   grid-column: 1/3;
 }
-#skills p{
+#skills p {
   margin-bottom: 5px;
   font-weight: 600;
   font-size: 18px;
 }
-#skills img{
+#skills img {
   width: 150px;
 }
 
-
-#portfolio{
+#portfolio {
   color: var(--Links);
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   padding: 0px 5%;
-
 }
-.portfolio-ttl{
+.portfolio-ttl {
   font-size: 30px;
 }
-.page-ttl{
+.page-ttl {
   font-size: 18px;
   margin-top: 80px;
 }
-#portfolio img{
+#portfolio img {
   border-radius: 5px;
   width: 100%;
   max-width: 500px;
 }
-#portfolio p{
+#portfolio p {
   text-transform: uppercase;
   font-weight: 600;
   color: var(--Links);
 }
-.languages{
+.languages {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
 }
-.langDescrip{
+.langDescrip {
   display: flex;
   flex-direction: column;
 }
-.langBadges{
+.langBadges {
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.langBadges img{
+.langBadges img {
   height: 50px;
 }
-#reactbadge{
+#reactbadge {
   height: 80px;
 }
-#vitebadge{
+#vitebadge {
   height: 80px;
 }
-#tailwindbadge{
+#tailwindbadge {
   height: 80px;
 }
-.sizeBadges{
+.sizeBadges {
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
 }
-.sizeBadges img{
+.sizeBadges img {
   height: 30px;
 }
 
-.links{
+.links {
   margin-top: 20px;
   display: flex;
   gap: 20px;
 }
-.portfolio-link{
+.portfolio-link {
   padding: 10px;
   text-transform: uppercase;
   font-weight: 600;
   color: var(--Links);
-  transition: ease .3s;
+  transition: ease 0.3s;
   border-bottom: solid 2px transparent;
 }
-.portfolio-link:hover{
+.portfolio-link:hover {
   border-bottom: solid 2px var(--Links-hover);
 }
-footer{
+footer {
   height: 200px;
   background-color: var(--Primary);
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.footer-socials{
+.footer-socials {
   display: flex;
   margin: 5px auto;
   gap: 30px;
 }
-.footer-socials img{
+.footer-socials img {
   width: 40px;
   color: var(--Links);
   margin-top: 5px;
   cursor: pointer;
   filter: invert(1);
 }
-.footer-socials img:hover{
-  filter: brightness(0) saturate(100%) invert(48%) sepia(91%) saturate(814%) hue-rotate(353deg) brightness(101%) contrast(106%);
+.footer-socials img:hover {
+  filter: brightness(0) saturate(100%) invert(48%) sepia(91%) saturate(814%)
+    hue-rotate(353deg) brightness(101%) contrast(106%);
 }
-.backtop{
+.backtop {
   display: flex;
   justify-content: center;
 }
-.backtop img{
+.backtop img {
   border-radius: 5px;
   filter: invert(1);
   margin: 20px auto;
   border: solid 1px var(--Secondary);
 }
 
-.backtop img:hover{
-  filter: brightness(0) saturate(100%) invert(48%) sepia(91%) saturate(814%) hue-rotate(353deg) brightness(101%) contrast(106%);
-
+.backtop img:hover {
+  filter: brightness(0) saturate(100%) invert(48%) sepia(91%) saturate(814%)
+    hue-rotate(353deg) brightness(101%) contrast(106%);
 }
 
-
-
 @media screen and (min-width: 1000px) {
-  .hamburger{
+  .hamburger {
     display: none;
   }
-  .nav{
+  .nav {
     display: flex;
   }
-  .nav-list{
+  .nav-list {
     flex-direction: row;
   }
-  .nav-links{
+  .nav-links {
     color: var(--Links);
   }
-  .cv{
+  .cv {
     color: var(--Links);
     align-self: center;
     margin-left: 10px;
   }
-  .cv:hover{
+  .cv:hover {
     border-color: var(--Links-hover);
-
   }
-  .hero{
+  .hero {
     padding-bottom: 150px;
     font-size: 36px;
     width: 50%;
   }
-  .langBadges img{
+  .langBadges img {
     height: 80px;
   }
-  #skills{
+  #skills {
     background-color: var(--Links-hover);
     padding: 0 5%;
     grid-template-columns: repeat(3, 1fr);
     padding-bottom: 100px;
   }
-  .skills-ttl{
+  .skills-ttl {
     font-size: 30px;
     grid-row: 1;
     grid-column: 1/4;
   }
-  #portfolio{
+  #portfolio {
     padding: 100px 5%;
     gap: 50px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
   }
-  .portfolio-ttl{
+  .portfolio-ttl {
     text-align: center;
     grid-column: 1/4;
   }
-  #portfolio img{
-  max-width: 800px;
+  #portfolio img {
+    max-width: 800px;
   }
-  .languages{
+  .languages {
     padding: 0 30px;
     justify-content: space-between;
   }
-  .links{
+  .links {
     margin-left: 20px;
   }
-  main{
+  main {
     padding: 0;
   }
-  #about{
+  #about {
     padding: 10px 0;
     margin: 0;
     align-items: center;
@@ -374,17 +382,17 @@ footer{
     background-position: right;
     background-size: 50%;
   }
-  #aboutMe{
+  #aboutMe {
     margin-top: 5%;
     padding-left: 5%;
     width: 40%;
   }
-  #aboutMe p{
+  #aboutMe p {
     font-weight: 600;
     font-size: 18px;
     line-height: 28px;
   }
-  .backtop-btn-fixed{
+  .backtop-btn-fixed {
     position: fixed;
     bottom: 20px;
     right: 20px;
@@ -396,5 +404,4 @@ footer{
     border-radius: 50px;
     background-color: var(--Links-hover);
   }
-
 }
