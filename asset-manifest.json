@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.c6ca87ae.css",
-    "main.js": "/portfolio/static/js/main.924993c8.js",
+    "main.css": "/portfolio/static/css/main.8d821bbe.css",
+    "main.js": "/portfolio/static/js/main.19cbc965.js",
     "static/media/meetscreenshot.png": "/portfolio/static/media/meetscreenshot.fcbba4d54f3f942f0967.png",
     "static/media/artgalleryscreenshot.png": "/portfolio/static/media/artgalleryscreenshot.a19dd43f8340660cc61d.png",
     "static/media/sunnysidescreenshot.png": "/portfolio/static/media/sunnysidescreenshot.879ed5dd382ce7aae75f.png",
@@ -14,12 +14,15 @@
     "static/media/makerprelaunch.png": "/portfolio/static/media/makerprelaunch.b59f92b2105af52d284a.png",
     "static/media/React-icon.svg.png": "/portfolio/static/media/React-icon.svg.1e5639fdfd7c944093d3.png",
     "static/media/Bootstrap_logo.svg.png": "/portfolio/static/media/Bootstrap_logo.svg.bea6f1e20c180b4b973e.png",
+    "static/media/512px-Amazon_Web_Services_Logo.svg.png": "/portfolio/static/media/512px-Amazon_Web_Services_Logo.svg.b621fa1c8b9dd70cbb35.png",
     "static/media/512px-Node.js_logo.svg.png": "/portfolio/static/media/512px-Node.js_logo.svg.20deb7f0a49714f0dfd2.png",
     "static/media/MongoDB_Logo.svg.png": "/portfolio/static/media/MongoDB_Logo.svg.eaf7320e7007b841ef8c.png",
     "static/media/512px-HTML5_Badge.svg.png": "/portfolio/static/media/512px-HTML5_Badge.svg.52c80d542be663ceb3e0.png",
     "static/media/CSS3_logo.svg.png": "/portfolio/static/media/CSS3_logo.svg.2a7daffa85bb2869d26d.png",
+    "static/media/Vitejs-logo.svg.png": "/portfolio/static/media/Vitejs-logo.svg.fe567fc8ffd4a050f715.png",
     "static/media/512px-Firebase_Logo.svg.png": "/portfolio/static/media/512px-Firebase_Logo.svg.62ff1238e12e57f4b8cd.png",
     "static/media/logo.webp": "/portfolio/static/media/logo.e737d2a051e6298052bd.webp",
+    "static/media/whatsapp-svgrepo-com.svg": "/portfolio/static/media/whatsapp-svgrepo-com.774faed4472c854aa4c19272fd5d15e5.svg",
     "static/media/cell-phone-svgrepo-com.svg": "/portfolio/static/media/cell-phone-svgrepo-com.9cde6d385f292f3b211130f238e1ed89.svg",
     "static/media/javascript-seeklogo.com.svg": "/portfolio/static/media/javascript-seeklogo.com.ba40d6a9629bf521391e764a593f9df3.svg",
     "static/media/tablet-material-4-svgrepo-com.svg": "/portfolio/static/media/tablet-material-4-svgrepo-com.6e0ed8b838a9272177348a68662f269e.svg",
@@ -28,11 +31,11 @@
     "index.html": "/portfolio/index.html",
     "static/media/iconmonstr-linkedin-3.svg": "/portfolio/static/media/iconmonstr-linkedin-3.27a3f479ca1bbb0ceef19e395081fb94.svg",
     "static/media/arrow_upward_FILL0_wght400_GRAD0_opsz48.svg": "/portfolio/static/media/arrow_upward_FILL0_wght400_GRAD0_opsz48.9f61e74f03665193dda6b8ef951b0a4a.svg",
-    "main.c6ca87ae.css.map": "/portfolio/static/css/main.c6ca87ae.css.map",
-    "main.924993c8.js.map": "/portfolio/static/js/main.924993c8.js.map"
+    "main.8d821bbe.css.map": "/portfolio/static/css/main.8d821bbe.css.map",
+    "main.19cbc965.js.map": "/portfolio/static/js/main.19cbc965.js.map"
   },
   "entrypoints": [
-    "static/css/main.c6ca87ae.css",
-    "static/js/main.924993c8.js"
+    "static/css/main.8d821bbe.css",
+    "static/js/main.19cbc965.js"
   ]
 }
