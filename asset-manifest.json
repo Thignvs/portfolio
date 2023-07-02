@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.b2e87e9c.css",
-    "main.js": "/portfolio/static/js/main.47b9621e.js",
+    "main.css": "/portfolio/static/css/main.afdaee1c.css",
+    "main.js": "/portfolio/static/js/main.71f7d077.js",
     "static/media/meetscreenshot.png": "/portfolio/static/media/meetscreenshot.fcbba4d54f3f942f0967.png",
     "static/media/FundamentosAWS.jpg": "/portfolio/static/media/FundamentosAWS.bdd75dee4133f6543c01.jpg",
     "static/media/ServiçosAWS.jpg": "/portfolio/static/media/ServiçosAWS.29688a6130575ae37a0e.jpg",
@@ -40,11 +40,12 @@
     "static/media/iconmonstr-linkedin-3.svg": "/portfolio/static/media/iconmonstr-linkedin-3.27a3f479ca1bbb0ceef19e395081fb94.svg",
     "static/media/arrow_upward_FILL0_wght400_GRAD0_opsz48.svg": "/portfolio/static/media/arrow_upward_FILL0_wght400_GRAD0_opsz48.9f61e74f03665193dda6b8ef951b0a4a.svg",
     "static/media/arrow_forward_ios_FILL0_wght400_GRAD200_opsz48.svg": "/portfolio/static/media/arrow_forward_ios_FILL0_wght400_GRAD200_opsz48.cb30bde9259986d7da1ad698fd62e909.svg",
-    "main.b2e87e9c.css.map": "/portfolio/static/css/main.b2e87e9c.css.map",
-    "main.47b9621e.js.map": "/portfolio/static/js/main.47b9621e.js.map"
+    "static/media/arrow_back_ios_FILL0_wght400_GRAD200_opsz48.svg": "/portfolio/static/media/arrow_back_ios_FILL0_wght400_GRAD200_opsz48.fc73824be29891af4c701f2bf68f3975.svg",
+    "main.afdaee1c.css.map": "/portfolio/static/css/main.afdaee1c.css.map",
+    "main.71f7d077.js.map": "/portfolio/static/js/main.71f7d077.js.map"
   },
   "entrypoints": [
-    "static/css/main.b2e87e9c.css",
-    "static/js/main.47b9621e.js"
+    "static/css/main.afdaee1c.css",
+    "static/js/main.71f7d077.js"
   ]
 }
