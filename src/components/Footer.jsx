@@ -4,12 +4,17 @@ import linkedinlogo from '../assets/iconmonstr-linkedin-3.svg'
 import arrowup from '../assets/arrow_upward_FILL0_wght400_GRAD0_opsz48.svg'
 import whatsbadge from '../assets/whatsapp-svgrepo-com.svg'
 
+var scrollTop = function () {
+        window.scrollTo(0, 0);
+    };
+
 const Footer = () => {
+    
     return (
         <div className='footer'>
-            <a href='/' className='backtop-btn-fixed'><img className='arrow-img' src={arrowup} alt='arrowUp' /></a>
+                <img onClick={scrollTop} className='backtop-btn-fixed' src={arrowup} alt='arrowUp' />
             <div className='backtop'>
-                <a href='/' className='backtop-btn'><img className='arrow-img' src={arrowup} alt='arrowUp' /></a>
+                <img onClick={scrollTop} className='backtop-btn' src={arrowup} alt='arrowUp' />
             </div>
             <div className='footer-socials'>
                 <a target='_blank' rel='noreferrer' href='https://web.whatsapp.com/send?phone=5522998083192'> <img src={whatsbadge} alt="whatsapp" /></a>
