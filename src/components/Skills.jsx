@@ -10,6 +10,7 @@ import node from '../assets/512px-Node.js_logo.svg.png'
 import tailwinds from '../assets/Tailwind_CSS_Logo.svg.png'
 import AWS from '../assets/512px-Amazon_Web_Services_Logo.svg.png'
 import vite from '../assets/Vitejs-logo.svg.png'
+import gitIcon from '../assets/Git-Icon.svg'
 
 const Skills = () => {
     return (
@@ -40,6 +41,10 @@ const Skills = () => {
         <div className='aws'>
             <p>Amazon Web Services</p>
             <img src={AWS} alt='awsbadge'/>
+        </div>
+        <div className='git'>
+            <p>Git</p>
+            <img src={gitIcon} alt='gitbadge'/>
         </div>
         <div className='bootstrap'>
             <p>Tailwind CSS</p>

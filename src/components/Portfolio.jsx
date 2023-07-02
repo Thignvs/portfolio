@@ -23,7 +23,7 @@ const Portfolio = () => {
     return (
     <section id='portfolio'>
         <div className='portfolio-ttl'>
-            <h3>Portfólio</h3>
+            <h3>Projetos</h3>
         </div>
         <div className='bmi'>
             <p className='page-ttl'>Calculadura de IMC (BMI Calculator)</p>

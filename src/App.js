@@ -5,8 +5,12 @@ import About from './components/About';
 import Skills from './components/Skills';
 import Portfolio from './components/Portfolio';
 import Footer from './components/Footer';
+import Certificates from './components/Certificates';
+
 
 function App() {
+
+
   return (
     <div className="App">
       <header className="App-header">
@@ -16,6 +20,7 @@ function App() {
       <main>
       <About/>
       <Skills />
+      <Certificates  />
       <Portfolio />
       </main>
       <footer>
