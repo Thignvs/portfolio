@@ -4,6 +4,7 @@ import HtmlImage from '../assets/Certificados/HTML-CSS-JAVASCRIPT.png';
 import BootstrapCert from '../assets/Certificados/Bootstrap.png';
 import ReactCert from '../assets/Certificados/React.png';
 import arrowFoward from '../assets/arrow_forward_ios_FILL0_wght400_GRAD200_opsz48.svg';
+import arrowBackward from '../assets/arrow_back_ios_FILL0_wght400_GRAD200_opsz48.svg';
 import descubraNuvem from '../assets/Certificados/DescubraNuvem.jpg'
 import fundamentosAws from '../assets/Certificados/FundamentosAWS.jpg'
 import servicosAws from '../assets/Certificados/ServiçosAWS.jpg'
@@ -49,7 +50,7 @@ const Certificates = () => {
                 </div>
 
                 <div>
-                    <img src={arrowFoward} alt='iconarrow' className="slide-btn-prev" onClick={handlePrevSlide} />
+                    <img src={arrowBackward} alt='iconarrow' className="slide-btn-prev" onClick={handlePrevSlide} />
                     <img src={arrowFoward} alt='iconarrow' className="slide-btn-next" onClick={handleNextSlide} />
                 </div>
 

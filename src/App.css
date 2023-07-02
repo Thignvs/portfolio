@@ -231,12 +231,18 @@ main {
 }
 .slide-btn-prev,
 .slide-btn-next {
+  cursor: pointer;
   filter: brightness(0) saturate(100%) invert(48%) sepia(91%) saturate(814%)
   hue-rotate(353deg) brightness(101%) contrast(106%);
   margin-top: 10px;
+  transition: transform .3s;
 }
+.slide-btn-prev:hover,
+.slide-btn-next:hover{
+  transform: scale(1.3);
+}
+
 .slide-btn-prev {
-  transform: rotate(180deg);
   position: absolute;
   bottom: -18px;
   left: 15vw;
