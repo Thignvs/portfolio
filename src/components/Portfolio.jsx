@@ -17,6 +17,7 @@ import sunny from '../assets/sunnysidescreenshot.png'
 import tailwind from '../assets/Tailwind_CSS_Logo.svg.png'
 import meet from '../assets/meetscreenshot.png'
 import vite from '../assets/Vitejs-logo.svg.png'
+import scoot from '../assets/scootscreenshot.png'
 
 
 const Portfolio = () => {
@@ -25,6 +26,36 @@ const Portfolio = () => {
         <div className='portfolio-ttl'>
             <h3>Projetos</h3>
         </div>
+
+        <div className='meet'>
+            <p className='page-ttl'>Scoot Multipage Website</p>
+            <a target='_blank' rel='noreferrer' href='https://thignvs.github.io/scoot-multipage-website/'><img src={scoot} alt="scootScreenshot" /></a>
+            <div className='languages'>
+                <div className='langDescrip'>
+                    <p>Linguagem</p>
+                    <div className='langBadges'>
+                        <img id='reactbadge' src={react} alt="reactbadge" />
+                        <img id='vitebadge' src={vite} alt="vitebadge" />
+                        <img id='tailwindbadge' src={tailwind} alt="tailwindbadge" />
+                    </div>
+                </div>
+                <div className='sizes'>
+                    <div className='sizeDescrip'>
+                        <p>Tamanhos</p>
+                    </div>
+                    <div className='sizeBadges'>
+                        <img src={desktop} alt='desktopimg'/>
+                        <img src={tablet} alt='tabletimg'/>
+                        <img src={cellphone} alt='cellphoneimg'/>
+                    </div>
+                </div>
+            </div>
+            <div className='links'>
+                <a className='portfolio-link' target='_blank' rel='noreferrer' href='https://thignvs.github.io/scoot-multipage-website/'>Link Página</a>
+                <a className='portfolio-link' target='_blank' rel='noreferrer' href='https://github.com/Thignvs/scoot-multipage-website'>Link Código</a>
+            </div>
+        </div>
+
         <div className='bmi'>
             <p className='page-ttl'>Calculadura de IMC (BMI Calculator)</p>
             <a target='_blank' rel='noreferrer' href='https://thignvs.github.io/BMI-Calculator/'><img src={bmiss} alt="pageScreenshot"/></a>
