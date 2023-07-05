@@ -18,6 +18,7 @@ import tailwind from '../assets/Tailwind_CSS_Logo.svg.png'
 import meet from '../assets/meetscreenshot.png'
 import vite from '../assets/Vitejs-logo.svg.png'
 import scoot from '../assets/scootscreenshot.png'
+import todo from '../assets/todoscreenshot.png'
 
 
 const Portfolio = () => {
@@ -27,7 +28,35 @@ const Portfolio = () => {
             <h3>Projetos</h3>
         </div>
 
-        <div className='meet'>
+        <div className='todo-app'>
+            <p className='page-ttl'>Todo App - Light/Dark Mode</p>
+            <a target='_blank' rel='noreferrer' href='https://thignvs.github.io/Todo-App/'><img src={todo} alt="todoscreenshot" /></a>
+            <div className='languages'>
+                <div className='langDescrip'>
+                    <p>Linguagem</p>
+                    <div className='langBadges'>
+                        <img id='reactbadge' src={react} alt="reactbadge" />
+                        <img id='vitebadge' src={vite} alt="vitebadge" />
+                        <img id='tailwindbadge' src={tailwind} alt="tailwindbadge" />
+                    </div>
+                </div>
+                <div className='sizes'>
+                    <div className='sizeDescrip'>
+                        <p>Tamanhos</p>
+                    </div>
+                    <div className='sizeBadges'>
+                        <img src={desktop} alt='desktopimg'/>
+                        <img src={cellphone} alt='cellphoneimg'/>
+                    </div>
+                </div>
+            </div>
+            <div className='links'>
+                <a className='portfolio-link' target='_blank' rel='noreferrer' href='https://thignvs.github.io/Todo-App/'>Link Página</a>
+                <a className='portfolio-link' target='_blank' rel='noreferrer' href='https://github.com/Thignvs/Todo-App'>Link Código</a>
+            </div>
+        </div>
+
+        <div className='scoot'>
             <p className='page-ttl'>Scoot Multipage Website</p>
             <a target='_blank' rel='noreferrer' href='https://thignvs.github.io/scoot-multipage-website/'><img src={scoot} alt="scootScreenshot" /></a>
             <div className='languages'>
