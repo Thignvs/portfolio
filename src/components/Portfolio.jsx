@@ -19,6 +19,7 @@ import meet from '../assets/meetscreenshot.png'
 import vite from '../assets/Vitejs-logo.svg.png'
 import scoot from '../assets/scootscreenshot.png'
 import todo from '../assets/todoscreenshot.png'
+import creative from '../assets/creativescreenshot.png'
 
 
 const Portfolio = () => {
@@ -53,6 +54,35 @@ const Portfolio = () => {
             <div className='links'>
                 <a className='portfolio-link' target='_blank' rel='noreferrer' href='https://thignvs.github.io/Todo-App/'>Link Página</a>
                 <a className='portfolio-link' target='_blank' rel='noreferrer' href='https://github.com/Thignvs/Todo-App'>Link Código</a>
+            </div>
+        </div>
+
+        <div className='creative'>
+            <p className='page-ttl'>Creative Agency Singlepage Site</p>
+            <a target='_blank' rel='noreferrer' href='https://thignvs.github.io/Creative-singlepage-site/'><img src={creative} alt="creativeScreenshot" /></a>
+            <div className='languages'>
+                <div className='langDescrip'>
+                    <p>Linguagem</p>
+                    <div className='langBadges'>
+                        <img id='reactbadge' src={react} alt="reactbadge" />
+                        <img id='vitebadge' src={vite} alt="vitebadge" />
+                        <img id='tailwindbadge' src={tailwind} alt="tailwindbadge" />
+                    </div>
+                </div>
+                <div className='sizes'>
+                    <div className='sizeDescrip'>
+                        <p>Tamanhos</p>
+                    </div>
+                    <div className='sizeBadges'>
+                        <img src={desktop} alt='desktopimg'/>
+                        <img src={tablet} alt='tabletimg'/>
+                        <img src={cellphone} alt='cellphoneimg'/>
+                    </div>
+                </div>
+            </div>
+            <div className='links'>
+                <a className='portfolio-link' target='_blank' rel='noreferrer' href='https://thignvs.github.io/Creative-singlepage-site/'>Link Página</a>
+                <a className='portfolio-link' target='_blank' rel='noreferrer' href='https://github.com/Thignvs/Creative-singlepage-site'>Link Código</a>
             </div>
         </div>
 
