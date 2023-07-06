@@ -58,7 +58,7 @@ const Portfolio = () => {
         </div>
 
         <div className='creative'>
-            <p className='page-ttl'>Creative Agency Singlepage Site</p>
+            <p className='page-ttl'>Creative Agency Singlepage Website</p>
             <a target='_blank' rel='noreferrer' href='https://thignvs.github.io/Creative-singlepage-site/'><img src={creative} alt="creativeScreenshot" /></a>
             <div className='languages'>
                 <div className='langDescrip'>
