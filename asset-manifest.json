@@ -1,11 +1,13 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.afdaee1c.css",
-    "main.js": "/portfolio/static/js/main.998aa842.js",
+    "main.js": "/portfolio/static/js/main.acd87866.js",
     "static/media/meetscreenshot.png": "/portfolio/static/media/meetscreenshot.fcbba4d54f3f942f0967.png",
     "static/media/creativescreenshot.png": "/portfolio/static/media/creativescreenshot.85fb37cef7dfd585afb9.png",
     "static/media/FundamentosAWS.jpg": "/portfolio/static/media/FundamentosAWS.bdd75dee4133f6543c01.jpg",
+    "static/media/Typemasterscreenshot.png": "/portfolio/static/media/Typemasterscreenshot.40e5420e47447f3773b0.png",
     "static/media/ServiçosAWS.jpg": "/portfolio/static/media/ServiçosAWS.29688a6130575ae37a0e.jpg",
+    "static/media/Photosnapscreenshot.png": "/portfolio/static/media/Photosnapscreenshot.c3840204db4d70b938eb.png",
     "static/media/Git, GitHub-GitFlow.jpg": "/portfolio/static/media/Git, GitHub-GitFlow.e3d2cdbf02464f49c9c1.jpg",
     "static/media/DescubraNuvem.jpg": "/portfolio/static/media/DescubraNuvem.214904ee4763b8db1d5e.jpg",
     "static/media/artgalleryscreenshot.png": "/portfolio/static/media/artgalleryscreenshot.a19dd43f8340660cc61d.png",
@@ -45,10 +47,10 @@
     "static/media/arrow_forward_ios_FILL0_wght400_GRAD200_opsz48.svg": "/portfolio/static/media/arrow_forward_ios_FILL0_wght400_GRAD200_opsz48.cb30bde9259986d7da1ad698fd62e909.svg",
     "static/media/arrow_back_ios_FILL0_wght400_GRAD200_opsz48.svg": "/portfolio/static/media/arrow_back_ios_FILL0_wght400_GRAD200_opsz48.fc73824be29891af4c701f2bf68f3975.svg",
     "main.afdaee1c.css.map": "/portfolio/static/css/main.afdaee1c.css.map",
-    "main.998aa842.js.map": "/portfolio/static/js/main.998aa842.js.map"
+    "main.acd87866.js.map": "/portfolio/static/js/main.acd87866.js.map"
   },
   "entrypoints": [
     "static/css/main.afdaee1c.css",
-    "static/js/main.998aa842.js"
+    "static/js/main.acd87866.js"
   ]
 }
