@@ -20,13 +20,72 @@ import vite from '../assets/Vitejs-logo.svg.png'
 import scoot from '../assets/scootscreenshot.png'
 import todo from '../assets/todoscreenshot.png'
 import creative from '../assets/creativescreenshot.png'
-
+import typemaster from '../assets/Typemasterscreenshot.png'
+import photosnap from '../assets/Photosnapscreenshot.png'
 
 const Portfolio = () => {
     return (
     <section id='portfolio'>
         <div className='portfolio-ttl'>
             <h3>Projetos</h3>
+        </div>
+
+        <div className='photosnap'>
+            <p className='page-ttl'>Photosnap Multipage Website</p>
+            <a target='_blank' rel='noreferrer' href='https://thignvs.github.io/photosnap-multipage-website/'><img src={photosnap} alt="todoscreenshot" /></a>
+            <div className='languages'>
+                <div className='langDescrip'>
+                    <p>Linguagem</p>
+                    <div className='langBadges'>
+                        <img id='reactbadge' src={react} alt="reactbadge" />
+                        <img id='vitebadge' src={vite} alt="vitebadge" />
+                        <img id='tailwindbadge' src={tailwind} alt="tailwindbadge" />
+                    </div>
+                </div>
+                <div className='sizes'>
+                    <div className='sizeDescrip'>
+                        <p>Tamanhos</p>
+                    </div>
+                    <div className='sizeBadges'>
+                        <img src={desktop} alt='desktopimg'/>
+                        <img src={tablet} alt='tabletimg'/>
+                        <img src={cellphone} alt='cellphoneimg'/>
+                    </div>
+                </div>
+            </div>
+            <div className='links'>
+                <a className='portfolio-link' target='_blank' rel='noreferrer' href='https://thignvs.github.io/photosnap-multipage-website/'>Link Página</a>
+                <a className='portfolio-link' target='_blank' rel='noreferrer' href='https://github.com/Thignvs/photosnap-multipage-website'>Link Código</a>
+            </div>
+        </div>
+
+        <div className='typemaster-landingpage'>
+            <p className='page-ttl'>Typemaster Pre-Launch Landingpage</p>
+            <a target='_blank' rel='noreferrer' href='https://thignvs.github.io/typemaster-landingpage/'><img src={typemaster} alt="todoscreenshot" /></a>
+            <div className='languages'>
+                <div className='langDescrip'>
+                    <p>Linguagem</p>
+                    <div className='langBadges'>
+                        <img id='reactbadge' src={react} alt="reactbadge" />
+                        <img id='vitebadge' src={vite} alt="vitebadge" />
+                        <img id='tailwindbadge' src={tailwind} alt="tailwindbadge" />
+                    </div>
+                </div>
+                <div className='sizes'>
+                    <div className='sizeDescrip'>
+                        <p>Tamanhos</p>
+                    </div>
+                    <div className='sizeBadges'>
+                        <img src={desktop} alt='desktopimg'/>
+                        <img src={tablet} alt='tabletimg'/>
+                        <img src={cellphone} alt='cellphoneimg'/>
+                    </div>
+                </div>
+            </div>
+            <div className='links'>
+                <a className='portfolio-link' target='_blank' rel='noreferrer' href='https://thignvs.github.io/typemaster-landingpage/'>Link Página</a>
+                <a className='portfolio-link' target='_blank' rel='noreferrer' href='https://github.com/Thignvs/typemaster-landingpage'>Link Código</a>
+            </div>
         </div>
 
         <div className='todo-app'>
