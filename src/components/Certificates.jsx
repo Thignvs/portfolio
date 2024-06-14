@@ -8,9 +8,16 @@ import arrowBackward from '../assets/arrow_back_ios_FILL0_wght400_GRAD200_opsz48
 import descubraNuvem from '../assets/Certificados/DescubraNuvem.jpg'
 import fundamentosAws from '../assets/Certificados/FundamentosAWS.jpg'
 import servicosAws from '../assets/Certificados/ServiçosAWS.jpg'
+import algoritmosEscalaveis from '../assets/Certificados/AlgoritimosEscalaveis.png'
+import programacaoInternet from '../assets/Certificados/ProgramaçãoInternet.png'
+import segurançaInformacao from '../assets/Certificados/SegurançaInformação.png'
+import sistemasInformacao from '../assets/Certificados/SistemasDeInformação.png'
+import powerBI from '../assets/Certificados/Certificado PowerBi-1.png'
+
+
 
 const Certificates = () => {
-    const certificateImages = [HtmlImage, BootstrapCert, ReactCert, descubraNuvem, fundamentosAws, servicosAws, GitImage];
+    const certificateImages = [powerBI, algoritmosEscalaveis, programacaoInternet, sistemasInformacao, segurançaInformacao, HtmlImage, BootstrapCert, ReactCert, descubraNuvem, fundamentosAws, servicosAws, GitImage];
     const totalSlides = certificateImages.length;
 
     const [currentSlide, setCurrentSlide] = useState(0);
