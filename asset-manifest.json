@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.afdaee1c.css",
-    "main.js": "/portfolio/static/js/main.acd87866.js",
+    "main.js": "/portfolio/static/js/main.40f44314.js",
     "static/media/meetscreenshot.png": "/portfolio/static/media/meetscreenshot.fcbba4d54f3f942f0967.png",
     "static/media/creativescreenshot.png": "/portfolio/static/media/creativescreenshot.85fb37cef7dfd585afb9.png",
     "static/media/FundamentosAWS.jpg": "/portfolio/static/media/FundamentosAWS.bdd75dee4133f6543c01.jpg",
@@ -13,6 +13,7 @@
     "static/media/artgalleryscreenshot.png": "/portfolio/static/media/artgalleryscreenshot.a19dd43f8340660cc61d.png",
     "static/media/scootscreenshot.png": "/portfolio/static/media/scootscreenshot.3a1ff770cdecc7e1f9e7.png",
     "static/media/sunnysidescreenshot.png": "/portfolio/static/media/sunnysidescreenshot.879ed5dd382ce7aae75f.png",
+    "static/media/SegurançaInformação.png": "/portfolio/static/media/SegurançaInformação.60d4702e87dcfebd8c1f.png",
     "static/media/todoscreenshot.png": "/portfolio/static/media/todoscreenshot.4ddf4034644bc9e0b0e8.png",
     "static/media/bg-bg.png": "/portfolio/static/media/bg-bg.e4769856f8a7a9559117.png",
     "static/media/skilledScreenShot.png": "/portfolio/static/media/skilledScreenShot.daea4ed2fc05668049be.png",
@@ -20,10 +21,14 @@
     "static/media/Bootstrap.png": "/portfolio/static/media/Bootstrap.9a064c62517f982ccd17.png",
     "static/media/React.png": "/portfolio/static/media/React.77f4ff39dba945523602.png",
     "static/media/singlepagescreenshot.png": "/portfolio/static/media/singlepagescreenshot.9e9bcc3e28f2e5984dec.png",
+    "static/media/Certificado PowerBi-1.png": "/portfolio/static/media/Certificado PowerBi-1.4f5a168775dfd9518e5b.png",
     "static/media/bmi-calc-screenshot.png": "/portfolio/static/media/bmi-calc-screenshot.4b36518aaf8981a06c1c.png",
     "static/media/blogrscreenshot.png": "/portfolio/static/media/blogrscreenshot.e7acdc25bf2660b3d194.png",
     "static/media/testimonialscreenshot.png": "/portfolio/static/media/testimonialscreenshot.d8fc1e9440db687a6091.png",
     "static/media/makerprelaunch.png": "/portfolio/static/media/makerprelaunch.b59f92b2105af52d284a.png",
+    "static/media/AlgoritimosEscalaveis.png": "/portfolio/static/media/AlgoritimosEscalaveis.6cc5320f354deda16ae3.png",
+    "static/media/SistemasDeInformação.png": "/portfolio/static/media/SistemasDeInformação.efd771da8df2fbb8968d.png",
+    "static/media/ProgramaçãoInternet.png": "/portfolio/static/media/ProgramaçãoInternet.3f82872c482d80343d86.png",
     "static/media/React-icon.svg.png": "/portfolio/static/media/React-icon.svg.1e5639fdfd7c944093d3.png",
     "static/media/Bootstrap_logo.svg.png": "/portfolio/static/media/Bootstrap_logo.svg.bea6f1e20c180b4b973e.png",
     "static/media/512px-Amazon_Web_Services_Logo.svg.png": "/portfolio/static/media/512px-Amazon_Web_Services_Logo.svg.b621fa1c8b9dd70cbb35.png",
@@ -47,10 +52,10 @@
     "static/media/arrow_forward_ios_FILL0_wght400_GRAD200_opsz48.svg": "/portfolio/static/media/arrow_forward_ios_FILL0_wght400_GRAD200_opsz48.cb30bde9259986d7da1ad698fd62e909.svg",
     "static/media/arrow_back_ios_FILL0_wght400_GRAD200_opsz48.svg": "/portfolio/static/media/arrow_back_ios_FILL0_wght400_GRAD200_opsz48.fc73824be29891af4c701f2bf68f3975.svg",
     "main.afdaee1c.css.map": "/portfolio/static/css/main.afdaee1c.css.map",
-    "main.acd87866.js.map": "/portfolio/static/js/main.acd87866.js.map"
+    "main.40f44314.js.map": "/portfolio/static/js/main.40f44314.js.map"
   },
   "entrypoints": [
     "static/css/main.afdaee1c.css",
-    "static/js/main.acd87866.js"
+    "static/js/main.40f44314.js"
   ]
 }
