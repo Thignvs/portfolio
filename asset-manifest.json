@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.afdaee1c.css",
-    "main.js": "/portfolio/static/js/main.2a53a74e.js",
+    "main.js": "/portfolio/static/js/main.c2f36e24.js",
     "static/media/meetscreenshot.png": "/portfolio/static/media/meetscreenshot.fcbba4d54f3f942f0967.png",
     "static/media/creativescreenshot.png": "/portfolio/static/media/creativescreenshot.85fb37cef7dfd585afb9.png",
     "static/media/FundamentosAWS.jpg": "/portfolio/static/media/FundamentosAWS.bdd75dee4133f6543c01.jpg",
@@ -39,7 +39,10 @@
     "static/media/Vitejs-logo.svg.png": "/portfolio/static/media/Vitejs-logo.svg.fe567fc8ffd4a050f715.png",
     "static/media/512px-Firebase_Logo.svg.png": "/portfolio/static/media/512px-Firebase_Logo.svg.62ff1238e12e57f4b8cd.png",
     "static/media/logo.webp": "/portfolio/static/media/logo.e737d2a051e6298052bd.webp",
+    "static/media/power-bi-icon-seeklogo.svg": "/portfolio/static/media/power-bi-icon-seeklogo.5be70461d339744364760caf32024858.svg",
+    "static/media/power-apps.svg": "/portfolio/static/media/power-apps.35e3a623a929e048469532fd9d9175de.svg",
     "static/media/whatsapp-svgrepo-com.svg": "/portfolio/static/media/whatsapp-svgrepo-com.774faed4472c854aa4c19272fd5d15e5.svg",
+    "static/media/icons8-microsoft-power-automate-2020-250.svg": "/portfolio/static/media/icons8-microsoft-power-automate-2020-250.bbb093c9c9b48840426d054702dba68b.svg",
     "static/media/cell-phone-svgrepo-com.svg": "/portfolio/static/media/cell-phone-svgrepo-com.9cde6d385f292f3b211130f238e1ed89.svg",
     "static/media/javascript-seeklogo.com.svg": "/portfolio/static/media/javascript-seeklogo.com.ba40d6a9629bf521391e764a593f9df3.svg",
     "static/media/tablet-material-4-svgrepo-com.svg": "/portfolio/static/media/tablet-material-4-svgrepo-com.6e0ed8b838a9272177348a68662f269e.svg",
@@ -52,10 +55,10 @@
     "static/media/arrow_forward_ios_FILL0_wght400_GRAD200_opsz48.svg": "/portfolio/static/media/arrow_forward_ios_FILL0_wght400_GRAD200_opsz48.cb30bde9259986d7da1ad698fd62e909.svg",
     "static/media/arrow_back_ios_FILL0_wght400_GRAD200_opsz48.svg": "/portfolio/static/media/arrow_back_ios_FILL0_wght400_GRAD200_opsz48.fc73824be29891af4c701f2bf68f3975.svg",
     "main.afdaee1c.css.map": "/portfolio/static/css/main.afdaee1c.css.map",
-    "main.2a53a74e.js.map": "/portfolio/static/js/main.2a53a74e.js.map"
+    "main.c2f36e24.js.map": "/portfolio/static/js/main.c2f36e24.js.map"
   },
   "entrypoints": [
     "static/css/main.afdaee1c.css",
-    "static/js/main.2a53a74e.js"
+    "static/js/main.c2f36e24.js"
   ]
 }
