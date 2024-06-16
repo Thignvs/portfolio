@@ -11,12 +11,27 @@ import tailwinds from '../assets/Tailwind_CSS_Logo.svg.png'
 import AWS from '../assets/512px-Amazon_Web_Services_Logo.svg.png'
 import vite from '../assets/Vitejs-logo.svg.png'
 import gitIcon from '../assets/Git-Icon.svg'
+import biIcon from '../assets/power-bi-icon-seeklogo.svg'
+import powerApps from '../assets/power-apps.svg'
+import powerAutomate from '../assets/icons8-microsoft-power-automate-2020-250.svg'
 
 const Skills = () => {
     return (
     <section id='skills'>
         <div className='skills-ttl'>
             <h3>Skills</h3>
+        </div>
+        <div className='powerbi'>
+            <p>Power B.I.</p>
+            <img src={biIcon} alt='biIcon' /> 
+        </div>
+        <div className='powerapps'>
+            <p>Power Apps</p>
+            <img src={powerApps} alt='appsIcon' /> 
+        </div>
+        <div className='powerbi'>
+            <p>Power Automate</p>
+            <img src={powerAutomate} alt='automateIcon' /> 
         </div>
         <div className='html'>
             <p>HTML</p>
